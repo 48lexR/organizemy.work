@@ -4,7 +4,7 @@ import {
   GoogleAuthProvider,
   onAuthStateChanged,
   signOut,
-} from "@firebase/auth";
+} from "firebase/auth";
 import { auth } from "../app/firebase/firebase";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
