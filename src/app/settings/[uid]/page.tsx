@@ -1,10 +1,10 @@
 "use client";
 
-import { auth, db } from "@/app/firebase/firebase";
+import { auth } from "@/app/firebase/firebase";
 import Link from "next/link";
 import { useAuthState } from "react-firebase-hooks/auth";
 
-export default async function Page() {
+export default function Page() {
   const [user, loading] = useAuthState(auth);
 
   return (

@@ -1,10 +1,10 @@
 export default function Home() {
   return (
-    <main className="w-9/10 m-auto px-20">
+    <main className="lg:w-1/2 w-full lg:m-auto px-20">
       <h1 className="text-5xl font-bold underline text-center font-serif">
         So, You Want to Get Organized?
       </h1>
-      <p className="text-2xl m-3">
+      <p className="text-2xl lg:m-3">
         It&apos;s no secret: everyone wants to get organized with us. Our
         innovative stack-model helps keep you on your toes and right at home in
         the madness. We even keep your old events around, so that you can see
