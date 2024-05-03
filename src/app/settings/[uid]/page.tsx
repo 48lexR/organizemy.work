@@ -1,11 +1,12 @@
 "use client";
 
-import { auth } from "@/app/firebase/firebase";
+import { auth, db } from "@/app/firebase/firebase";
 import Link from "next/link";
 import { useAuthState } from "react-firebase-hooks/auth";
 
-export default function Page() {
+export default async function Page() {
   const [user, loading] = useAuthState(auth);
+
   return (
     <div className="container grid grid-cols-1 text-center">
       <img
