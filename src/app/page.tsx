@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="lg:w-1/2 w-full lg:m-auto px-20">
+    <main className="lg:w-4/5 lg:m-auto w-auto mx-2">
       <h1 className="text-5xl font-bold underline text-center font-serif">
         So, You Want to Get Organized?
       </h1>
