@@ -6,6 +6,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 
 export default function Page() {
   const [user, loading] = useAuthState(auth);
+
   return (
     <div className="container grid grid-cols-1 text-center">
       <img

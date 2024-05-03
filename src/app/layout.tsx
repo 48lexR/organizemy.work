@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "../components/NavBar";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -30,8 +32,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <NavBar></NavBar>
         {children}
+        <Footer></Footer>
       </body>
       <Analytics></Analytics>
+      <SpeedInsights></SpeedInsights>
     </html>
   );
 }
