@@ -5,7 +5,7 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
   onAuthStateChanged,
-} from "@firebase/auth";
+} from "firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useEffect } from "react";
 const provider = new GoogleAuthProvider();
