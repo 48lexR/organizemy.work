@@ -15,7 +15,7 @@ export default async function name({ params }: any) {
   } catch (e) {
     return (
       <span className="text-red-900">
-        Couldn't find the Event you were looking for.
+        Couldn&apos;t find the Event you were looking for.
       </span>
     );
   }
