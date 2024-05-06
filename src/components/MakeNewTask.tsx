@@ -28,14 +28,14 @@ export default function MakeNewTask(u: any) {
   }
 
   return (
-    <div className=" lg:w-max lg:m-auto ">
+    <div className=" lg:w-max lg:m-auto">
       <h1 className="text-5xl font-bold font-serif text-center">Welcome</h1>
 
       <h2 className="text-3xl font-bold text-center font-serif">
         Make New Task?
       </h2>
       <form onSubmit={() => newTask(uid)}>
-        <div className="container grid grid-cols-2 text-center items-center border border-black rounded px-2 py-1">
+        <div className="container grid grid-cols-2 text-center items-center border border-black bg-gray-100 rounded px-2 py-1">
           <label htmlFor="name">Task Name:</label>
           <input
             type="text"
