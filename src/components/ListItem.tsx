@@ -57,7 +57,10 @@ export default async function ListItem(u: any) {
     const id = doc.id;
     const date = data.time.toDate();
     return (
-      <li key={id} className="m-5 w-max border border-black rounded p-5">
+      <li
+        key={id}
+        className="m-5 w-max border border-black rounded p-5 opacity-80 hover:opacity-100 transition-opacity duration-100"
+      >
         <Link href={`/${id}`}>
           <div className="container grid grid-cols-2 grid-rows-2 text-center">
             <p>{date.toDateString()}</p>
