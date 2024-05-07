@@ -10,7 +10,7 @@ export default function Home() {
         the madness. We even keep your old events around, so that you can see
         how far you&apos;ve come. Think you want in? Sign up today!
       </p>
-      <div className="my-20 container lg:mx-auto grid lg:grid-cols-3 lg:grid-rows-1 grid-cols-1 grid-rows-3 text-center lg:space-evenly lg:items-center ">
+      <div className="w-full my-20 container lg:mx-auto grid lg:grid-cols-3 lg:grid-rows-1 grid-cols-1 grid-rows-3 text-center lg:space-evenly lg:items-center ">
         <span className="bg-gray-100 block border-black border mx-5 p-5 rounded opacity-80 hover:opacity-100 transition-opacity duration-100">
           <h1 className="lg:text-5xl text-3xl font-bold font-serif">
             Sign Up!
@@ -43,10 +43,10 @@ export default function Home() {
         </span>
       </div>
       <div className="my-20 w-4/5 mx-auto">
-        <h2 className="font-serif italic text-5xl text-white text-center">
+        <h2 className="font-serif italic text-5xl text-gray-200 text-center font-bold">
           Our commitment to you.
         </h2>
-        <p className="text-white text-3xl my-2">
+        <p className="text-gray-200 text-3xl my-2">
           We are committed to providing a useful experience for all users. For
           any questions or other communication, including providing feedback,
           please email cage@bullardtech.com. We welcome all feedback, ideas, and
