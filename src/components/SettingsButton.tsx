@@ -12,7 +12,7 @@ export default function SettingsButton() {
       href={`/settings/${user?.uid}`}
       className={`${
         user ? "block" : "hidden"
-      } border border-black bg-blue-200 rounded p-1 h-full `}
+      } border border-black bg-blue-200 rounded p-1 h-full w-full `}
     >
       Account
     </Link>

@@ -26,7 +26,7 @@ export function SignButton() {
     [user]
   );
   return (
-    <div className="bg-blue-200 border border-black rounded p-1 h-full ">
+    <div className="bg-blue-200 border border-black rounded p-1 h-full w-full ">
       <button
         onClick={
           user

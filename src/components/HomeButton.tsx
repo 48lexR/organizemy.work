@@ -4,7 +4,7 @@ export default function HomeButton() {
   return (
     <Link
       href="/"
-      className="block bg-blue-200 border border-black rounded p-1 h-full"
+      className="block bg-blue-200 border border-black rounded p-1 h-full w-full"
     >
       Home
     </Link>

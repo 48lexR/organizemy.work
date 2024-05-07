@@ -10,9 +10,7 @@ export default function NavBar() {
   const [loggedIn, loading] = useAuthState(auth);
   return (
     <nav
-      className={`lg:float-left bg-gray-100 container grid lg:grid-cols-1 lg:grid-rows-3 ${
-        loggedIn ? "grid-cols-3" : "grid-cols-2"
-      } grid-rows-1 lg:w-max text-center justify-center p-2 lg:px-5 text-2xl lg:text-3xl `}
+      className={`lg:float-left bg-gray-100 container flex lg:flex-col lg:w-max flex-row w-full text-center justify-evenly p-2 lg:px-5 my-2 text-2xl lg:text-3xl `}
     >
       <HomeButton></HomeButton>
       <SignButton></SignButton>

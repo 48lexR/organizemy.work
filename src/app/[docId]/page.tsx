@@ -25,7 +25,7 @@ export default async function name({ params }: any) {
   const uid = data.uid;
 
   return (
-    <div className="text-center rounded bg-gray-200 lg:w-max m-auto p-5">
+    <div className="text-center rounded bg-gray-200 lg:w-max lg:h-max m-auto p-5">
       <h1 className="text-5xl font-bold ">{data.name}</h1>
       <p>{data.loc}</p>
       <p>{data.desc}</p>
